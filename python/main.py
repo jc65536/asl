@@ -24,7 +24,7 @@ base_options = python.BaseOptions(model_asset_path=MODEL_PATH)
 options = vision.HandLandmarkerOptions(base_options=base_options, num_hands=1)
 detector = vision.HandLandmarker.create_from_options(options)
 
-image_path = f"{PROJECT_ROOT}/data/misc/woman_hands.jpg"
+image_path = f"{PROJECT_ROOT}/data/dataset5/A/a/color_0_0002.png"
 
 
 cv_image = cv2.imread(image_path)
